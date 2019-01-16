@@ -20,22 +20,12 @@ Sample node data ("Blue", "A_23_P379293", "ear6", "Eosionophil-associated, ribon
 Edge data contain Module, Source Symbol, Target Symbol, and Weight.
 
 - Retrieve data from database
-The following files enable the retrieval of node and edge data that will be used for retrieval data from database -
-
-LookupDao.java
-LookupDaoImplHibernate.java
-LookupService.java
-LookupServiceImpl.java
-
-
 - Transform data for cytoscape user-defined
-HostFactorDataModelController.java is to transform the data retrieved from Oracle to Json format.  These Json data will be used by cytoscape.js to display in the UI.
-
 - Display in cytoscape
 DataModelNetworkVisualization.jsp utilizes cytoscape.js to present the node and edge in the viewer.  Major feature implmented:
 
-Display detailed information of node/edge upon tapping. 
-Download displayed image in .PNG format.
-Filter edge by edge weight with “Remove Orphaned Node” option
-Dynamically display number node and edge after filtering
+Displays detailed information of node/edge upon tapping. 
+Downloads displayed image in .PNG format.
+Filters edge by edge weight with “Remove Orphaned Node” option
+Dynamically displays number node and edge along with percentile after filtering
 
