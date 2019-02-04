@@ -1,3 +1,5 @@
+The United States Government  Department of Health and Human Services, National Institutes of Health (NIH), National Institute of Allergy and Infectious Diseases, owns the copyright to the accompanying software under FAR 52.227-14 (c). 
+
 The data model network visualization repository contains the code enable the  visualization of networks generated from the Host Factor Experiment Data Models recently implemented for systems biology experiments.  We use the commonly employed framework of Cytoscape.js to do that.  
 
 
